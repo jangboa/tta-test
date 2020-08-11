@@ -64,8 +64,8 @@
         	<!-- 타이틀 -->
         	<div id="title">
         		<ul>
-        			<li><img src="<c:url value='/images/egovframework/example/title_dot.gif'/>" alt=""/><spring:message code="list.sample" /></li>
-        		</ul>
+        			<li><img src="<c:url value='/images/egovframework/example/title_dot.gif'/>" alt=""/><spring:message code="list.sample" /> / HOSTNAME : <%=System.getenv("HOSTNAME")%></li>        
+        		</ul>            
         	</div>
         	<!-- // 타이틀 -->
         	<div id="search">
